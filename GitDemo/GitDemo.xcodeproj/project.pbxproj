@@ -16,6 +16,7 @@
 		44FAA19620E2173300020980 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA19520E2173300020980 /* main.m */; };
 		44FAA1A020E2173300020980 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA19F20E2173300020980 /* GitDemoTests.m */; };
 		44FAA1AB20E2173300020980 /* GitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA1AA20E2173300020980 /* GitDemoUITests.m */; };
+		44FAA1BD20E2462300020980 /* NSMutableAttributedString+QCXAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 44FAA1BC20E2462300020980 /* NSMutableAttributedString+QCXAttributedString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		44FAA1A620E2173300020980 /* GitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44FAA1AA20E2173300020980 /* GitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoUITests.m; sourceTree = "<group>"; };
 		44FAA1AC20E2173300020980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44FAA1BB20E2462300020980 /* NSMutableAttributedString+QCXAttributedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+QCXAttributedString.h"; sourceTree = "<group>"; };
+		44FAA1BC20E2462300020980 /* NSMutableAttributedString+QCXAttributedString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+QCXAttributedString.m"; sourceTree = "<group>"; };
 		465C7462B8F996D754E10AD7 /* Pods-GitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitDemo/Pods-GitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B8A9F9DAA80E127044D160F6 /* Pods-GitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitDemo/Pods-GitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FE3D20CAE2ED22B04A7E259C /* libPods-GitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +115,8 @@
 				44FAA18720E2173200020980 /* AppDelegate.m */,
 				44FAA18920E2173200020980 /* ViewController.h */,
 				44FAA18A20E2173200020980 /* ViewController.m */,
+				44FAA1BB20E2462300020980 /* NSMutableAttributedString+QCXAttributedString.h */,
+				44FAA1BC20E2462300020980 /* NSMutableAttributedString+QCXAttributedString.m */,
 				44FAA18C20E2173200020980 /* Main.storyboard */,
 				44FAA18F20E2173300020980 /* Assets.xcassets */,
 				44FAA19120E2173300020980 /* LaunchScreen.storyboard */,
@@ -329,6 +334,7 @@
 			files = (
 				44FAA18B20E2173200020980 /* ViewController.m in Sources */,
 				44FAA19620E2173300020980 /* main.m in Sources */,
+				44FAA1BD20E2462300020980 /* NSMutableAttributedString+QCXAttributedString.m in Sources */,
 				44FAA18820E2173200020980 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
